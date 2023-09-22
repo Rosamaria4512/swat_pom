@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/login.feature",
         snippets = SnippetType.CAMELCASE,
         glue = "com.co.swagpom.stepsdefinitions",
-        plugin = "pretty"
+        plugin = "pretty",
+        tags = " @loginincorrectly"
 )
 
 public class LoginInconrrectlyRunner {
