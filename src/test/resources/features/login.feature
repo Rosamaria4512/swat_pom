@@ -1,6 +1,11 @@
 Feature: Login
+<<<<<<< HEAD
 Background:
   Given he user entre the website
+=======
+ Background:
+   Given he user entre the website
+>>>>>>> 908976e339c28b5f548375363d0d783b31bbce5e
   @loginsuccesfylly
   Scenario: Login succesfully
     When he user enter with credentials

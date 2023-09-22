@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login" skipped="0" tests="1" time="10.83" timestamp="2023-09-22 02:03:48"><testcase name="Login Incorrectly"/></testsuite>
+=======
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Login" skipped="0" tests="1" time="5.96" timestamp="2023-09-21 07:37:42"><testcase name="Login Incorrectly"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.co.swagpom.stepsdefinitions.LoginIncorrectlyStepDefinition.heUserEnterWithIncorrectCredentials(LoginIncorrectlyStepDefinition.java:16)&#13;
+✽.he user enter with incorrect credentials(src/test/resources/features/login.feature:14)&#13;
+</system-err></testcase></testsuite>
+>>>>>>> 908976e339c28b5f548375363d0d783b31bbce5e
