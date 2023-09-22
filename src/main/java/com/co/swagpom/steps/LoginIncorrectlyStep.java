@@ -24,6 +24,8 @@ public class LoginIncorrectlyStep {
     public void clicklogin()
     {
         loginIncorrectlyPage.getDriver().findElement(loginIncorrectlyPage.getBTN_LOGIN()).click();
+
+        System.out.println("Login Incorrecto ");
         try {Thread.sleep(3000);} catch (InterruptedException e) {throw new RuntimeException(e);
         }
     }

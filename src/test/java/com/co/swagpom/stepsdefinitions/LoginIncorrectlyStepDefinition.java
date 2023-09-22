@@ -6,10 +6,13 @@ import com.co.swagpom.steps.LoginIncorrectlyStep;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.thucydides.core.annotations.Step;
+import net.thucydides.core.annotations.Steps;
 
 import java.util.List;
 
 public class LoginIncorrectlyStepDefinition {
+    @Steps
     LoginIncorrectlyStep loginIncorrectlyStep;
     @When("^he user enter with incorrect credentials$")
     public void heUserEnterWithIncorrectCredentials(List<DataLoginIncorrectly>dataLoginIncorrectlyList) {
